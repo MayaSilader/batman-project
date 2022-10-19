@@ -1,0 +1,68 @@
+/* General */
+@font-face {
+    font-family: Letters;
+    src: url(img/RockSalt-Regular.ttf);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Letters';
+  font-size: 14px;
+  height: 60vh;
+  }
+  body {
+    background: rgb(123, 31, 31);
+    padding: 50px;
+    color: white;
+    font-size: 18px;
+  }
+
+/* GOOD ANSWER----------------------------------------------------------------------------------- */
+  .goodanswer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .goodanswer img {
+    height: 100px;
+    padding-bottom: 25px;
+  }
+  .goodanswer h1{
+    font-size: 40px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.658);
+  }
+  .goodanswer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: greenyellow;
+  }
+
+  /* BAD ANSWER------------------------------------------------------------------------------------ */
+
+  .badanswers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .badanswers h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.658);
+  }
+  .badanswers img {
+    height: 400px;
+    padding-bottom: 25px;
+  }
+
+  .badanswers a {
+    text-decoration: none;
+    font-size: 20px;
+    color: greenyellow;
+  }

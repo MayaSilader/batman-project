@@ -1,0 +1,4 @@
+User-agent: *
+Allow:/
+
+web1.skolazdola.cz/rekvalifikace/sitemap.xml

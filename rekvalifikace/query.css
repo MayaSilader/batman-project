@@ -1,0 +1,120 @@
+/* Header query */
+@media only screen and (max-width: 580px) {
+    #scrollup {
+    width: 100%;
+    height: 300px;
+    background: rgba(164, 30, 30, 0.936);
+    }
+  .logo {
+    width: 100%;
+  }
+}
+/* Batmans cave */
+@media only screen and (max-width: 1000px) {
+    .batmans-cave {
+    display: none;}
+}
+
+/* Blogs query */
+@media only screen and (max-width: 1400px) {
+    .blogs {
+        flex-direction: column;
+    }
+}
+
+/* Contact form */
+@media only screen and (max-width: 800px){
+    .fullName, .input {
+        width: 250px;
+    }
+    #msg {
+        min-width: 60%;
+        width: 80%;
+        max-width: 80%;
+        height: 95px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #send {
+        width: 160px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 530px){
+    .fullName, .input {
+        width: 250px;
+    }
+    #msg {
+        min-width: 60%;
+        width: 80%;
+        max-width: 80%;
+        height: 95px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #send {
+        width: 160px;
+    }
+}
+
+/* Reference */
+@media only screen and (max-width: 1400px) {
+   /*  .references {
+        display: flex;
+        flex-direction: column;
+    } */
+    .reference-1 {
+        display:flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+        width: 80%;
+    }
+}
+
+
+/* Photo query */
+@media only screen and (max-width: 800px){
+ 
+    .photos {
+        flex-wrap: wrap;
+    }
+ 
+    .photos img {
+        flex-basis: 100px;
+        flex-grow: 1;
+    }
+}
+
+/* References query */
+@media only screen and (max-width: 1200px){
+    .references {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .blogs {
+        padding-top: 250px;
+    }
+}
+
+
+/* Contact */
+@media only screen and (max-width: 700px){
+ 
+    .contact {
+        flex-direction: column;
+        align-items: center;
+      }
+ 
+    .contact article {
+          margin-top: 15px;
+          margin-bottom: 15px;
+      }
+ 
+}
+
+
+  
